@@ -13,4 +13,4 @@ phases:
   post_build:
     commands:
       - echo "Updating files in the S3 bucket..."
-      - aws s3 sync dist/aws-app/ s3://aws-app-github --delete
+      - aws s3 sync dist/aws-app/ s3://awsang --delete
